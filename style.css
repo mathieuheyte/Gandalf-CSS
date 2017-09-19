@@ -1,0 +1,42 @@
+.main {
+  background-image: url("gandalf.png");
+  background-repeat: no-repeat;
+  height: 572px;
+  width: 500px;
+  padding: 20px 0 0 0;
+  opacity: 0.6;
+}
+.description {
+  background-color: rgba(229, 222, 222, 0.70);
+  width: 90%;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+h1 {
+  font-weight: bold;
+  font-size: 4em;
+  padding-bottom: 15px;
+}
+span {
+  color:orange;
+}
+h2 {
+  font-size: 5em;
+  font-weight: bold;
+  color: white;
+  margin-top: 100px;
+}
+
+.main:hover {
+  opacity: 1;
+}
+
+.main:hover .description {
+  display: none;
+}
+
+.main:hover h2 {
+  font-weight: normal;
+  font-size: 2.5em;
+  margin-top: 100%;
+}
